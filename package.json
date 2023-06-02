@@ -11,7 +11,7 @@
     "lint-prettier": "npm run lint:check -- && npm run prettier:check",
     "lint-staged": "npm run lint-prettier ",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "lint-staged"
+    "husky": "lint-staged"
   },
   "keywords": [],
   "author": "Dipto Dey",
